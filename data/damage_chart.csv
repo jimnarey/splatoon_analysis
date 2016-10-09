@@ -1,90 +1,61 @@
-,All Dmg is at optimal range,(# Def / # Atk),<--- Main Slots,,,,,,,,,
-,Damage and Hits to Spat (HtS),(3 D / 0 A),(2 D / 0 A),(1 D / 0 A),Base DMG,(0 D / 1 A),(0 D / 2 A),(0 D / 3 A),,HtS (Max),HtS (Min),
-,,,,,,,,,,,,
-,Splattershot Jr.,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
-,Aerospray,21.4,22.2,23.2,24.5,24.9,24.9,24.9,,5,5,Shooter
-,N-ZAP,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
-,,,,,,,,,,,,Shooter
-,Splattershot,30.6,31.7,33.2,35,38.1,40.7,42.8,,4,3,Shooter
-,Splattershot Pro,36.7,38.1,39.8,42,45.8,48.9,49.9,,3,3,Shooter
-,.52 Gal,45.5,47.2,49.3,52,56.7,60.6,63.6,,3,2,Shooter
-,.96 Gal,54.2,53.2,58.8,62,67.6,72.2,75.8,,2,2,Shooter
-,Jet Squelcher,27.1,28.1,29.4,31,33.3,33.3,33.3,,4,4,Shooter
-,Dual Squelcher,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
-,Splash-o-matic,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
-,Sploosh-o-matic,33.2,34.5,36,38,41.4,44.2,46.5,,4,3,Shooter
-,,,,,,,,,,,,Shooter
-,L-3 Nozzelnose,25.3,26.3,27.5,29,31.6,33.3,33.3,,4,4,Shooter
-,L-3 Nozzelnose,76.1,78.9,82.6,87,94.9,99.9,99.9,,2,2,
-,H-3 Nozzlenose,35.8,37.2,38.9,41,44.7,47.7,49.9,,3,3,Shooter
-,H-3 Nozzlenose,107.6,111.6,116.7,123,134.1,143.3,149.7,,1,1,
-,,,,,,,,,,,,
-,Blaster,109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Blaster
-,Range Blaster,109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Blaster
-,,,,,,,,,,,,Blaster
-,Luna Blaster,109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Blaster
-,,,,,,,,,,,,Blaster
-,Rapid Blaster,70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Blaster
-,Rapid Blaster Pro,70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Blaster
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,Splat Roller (Flick: Center),109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Roller
-,Splat Roller (Flick: Side),43.7,45.3,47.4,50,54.5,58.2,61.2,,3,2,Roller
-,Splat Roller (Roll),122.5,127.1,132.9,140,152.7,163.1,171.3,,1,1,Roller
-,,,,,,,,,,,,
-,Carbon Roller (Flick: Center),109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Roller
-,Carbon Roller (Flick: Side),43.7,45.3,47.4,50,54.5,58.2,61.2,,3,2,Roller
-,Carbon Roller (Roll),61.2,63.5,66.4,70,76.3,81.5,85.6,,2,2,Roller
-,,,,,,,,,,,,Roller
-,Dynamo Roller (Flick: Center),109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Roller
-,Dynamo Roller (Flick: Side),43.7,45.3,47.4,50,54.5,58.2,61.2,,3,2,Roller
-,Dynamo Roller (Roll),140,145.2,151.9,160,174.5,186.4,195.8,,1,1,Roller
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,Inkbrush (Flick),24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Brush
-,Inkbrush (Push),17.5,18.1,18.9,20,21.8,23.3,24.4,,6,5,Brush
-,,,,,,,,,,,,Brush
-,Octobrush (Flick),32.3,33.5,35.1,37,40.3,43.1,45.2,,4,3,Brush
-,Octobrush (Push),21.8,22.6,23.7,25,27.2,29.1,30,,5,4,Brush
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,Slosher,61.2,63.5,66.4,70,76.3,81.5,85.6,,2,2,Bucket
-,Tri-Slosher,54.2,56.2,58.8,62,67.6,72.2,75.8,,2,2,Bucket
-,Gats,,,,,,,,,,,Bucket
-,,,,,,,,,,,,Bucket
-,Heavy Splatling,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Bucket
-,Mini Splatling,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Bucket
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,Splat Charger,140,145.2,151.9,160,174.5,186.4,195.8,,1,1,Charger
-,Splat Charger (Uncharged),35,36.3,37.9,40,43.6,46.6,48.9,,3,3,Charger
-,,,,,,,,,,,,Charger
-,E-liter 3K,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Charger
-,E-lier 3K (Uncharged),35,36.3,37.9,40,43.6,46.6,48.9,,3,3,Charger
-,,,,,,,,,,,,Charger
-,Classic Squiffer,122.5,127.1,132.9,140,152.7,163.1,171.3,,1,1,Charger
-,Classic Squiffer (Uncharged),35,36.3,37.9,40,43.6,46.6,48.9,,3,3,Charger
-,,,,,,,,,,,,Charger
-,Bamboozler,70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Charger
-,Bamboozler (Uncharger),70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Charger
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,Splat Bomb,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
-,Suction Bomb,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
-,Seeker,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
-,,,,,,,,,,,,Sub
-,Burst Bomb (Direct),52.5,54.4,56.9,60,65.4,69.9,73.4,,2,2,Sub
-,Burst Bimb (Partial),30.6,31.7,33.2,35,38.1,40.7,42.8,,4,3,Sub
-,Burst Bomb (Splash),17.5,18.1,18.9,20,21.8,23.3,24.4,,6,5,Sub
-,,,,,,,,,,,,Sub
-,Ink Mine,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
-,,,,,,,,,,,,Sub
-,Sprinkler,26.2,27.2,28.4,30,32.7,33.3,33.3,,4,4,Sub
-,,,,,,,,,,,,Sub
-,Splash Wall,,,,50 Per tick?,,,,,,,Sub
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,Killer Wail,,,,10 Per tick,,,,,,,Special
-,Kraken,,,,160,,,,,1,1,Special
-,Inkstrike,,,,Lots?,,,,,,,Special
-,Inkzooka,,,,150,,,,,1,1,Special
+All Dmg is at optimal range,(# Def / # Atk),<--- Main Slots,,,,,,,,,
+Damage and Hits to Spat (HtS),(3 D / 0 A),(2 D / 0 A),(1 D / 0 A),Base DMG,(0 D / 1 A),(0 D / 2 A),(0 D / 3 A),,HtS (Max),HtS (Min),
+,,,,,,,,,,,
+Splattershot Jr.,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
+Aerospray,21.4,22.2,23.2,24.5,24.9,24.9,24.9,,5,5,Shooter
+N-ZAP,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
+Splattershot,30.6,31.7,33.2,35,38.1,40.7,42.8,,4,3,Shooter
+Splattershot Pro,36.7,38.1,39.8,42,45.8,48.9,49.9,,3,3,Shooter
+.52 Gal,45.5,47.2,49.3,52,56.7,60.6,63.6,,3,2,Shooter
+.96 Gal,54.2,53.2,58.8,62,67.6,72.2,75.8,,2,2,Shooter
+Jet Squelcher,27.1,28.1,29.4,31,33.3,33.3,33.3,,4,4,Shooter
+Dual Squelcher,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
+Splash-o-matic,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Shooter
+Sploosh-o-matic,33.2,34.5,36,38,41.4,44.2,46.5,,4,3,Shooter
+L-3 Nozzelnose,25.3,26.3,27.5,29,31.6,33.3,33.3,,4,4,Shooter
+L-3 Nozzelnose x3,76.1,78.9,82.6,87,94.9,99.9,99.9,,2,2,Shooter
+H-3 Nozzlenose,35.8,37.2,38.9,41,44.7,47.7,49.9,,3,3,Shooter
+H-3 Nozzlenose x3,107.6,111.6,116.7,123,134.1,143.3,149.7,,1,1,Shooter
+Blaster,109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Blaster
+Range Blaster,109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Blaster
+Luna Blaster,109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Blaster
+Rapid Blaster,70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Blaster
+Rapid Blaster Pro,70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Blaster
+Splat Roller (Flick: Center),109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Roller
+Splat Roller (Flick: Side),43.7,45.3,47.4,50,54.5,58.2,61.2,,3,2,Roller
+Splat Roller (Roll),122.5,127.1,132.9,140,152.7,163.1,171.3,,1,1,Roller
+Carbon Roller (Flick: Center),109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Roller
+Carbon Roller (Flick: Side),43.7,45.3,47.4,50,54.5,58.2,61.2,,3,2,Roller
+Carbon Roller (Roll),61.2,63.5,66.4,70,76.3,81.5,85.6,,2,2,Roller
+Dynamo Roller (Flick: Center),109.4,113.4,118.6,125,136.3,145.7,153,,1,1,Roller
+Dynamo Roller (Flick: Side),43.7,45.3,47.4,50,54.5,58.2,61.2,,3,2,Roller
+Dynamo Roller (Roll),140,145.2,151.9,160,174.5,186.4,195.8,,1,1,Roller
+Inkbrush (Flick),24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Brush
+Inkbrush (Push),17.5,18.1,18.9,20,21.8,23.3,24.4,,6,5,Brush
+Octobrush (Flick),32.3,33.5,35.1,37,40.3,43.1,45.2,,4,3,Brush
+Octobrush (Push),21.8,22.6,23.7,25,27.2,29.1,30,,5,4,Brush
+Slosher,61.2,63.5,66.4,70,76.3,81.5,85.6,,2,2,Bucket
+Tri-Slosher,54.2,56.2,58.8,62,67.6,72.2,75.8,,2,2,Bucket
+Heavy Splatling,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Bucket
+Mini Splatling,24.5,25.4,26.5,28,30.5,32.6,33.3,,5,4,Bucket
+Splat Charger,140,145.2,151.9,160,174.5,186.4,195.8,,1,1,Charger
+Splat Charger (Uncharged),35,36.3,37.9,40,43.6,46.6,48.9,,3,3,Charger
+E-liter 3K,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Charger
+E-lier 3K (Uncharged),35,36.3,37.9,40,43.6,46.6,48.9,,3,3,Charger
+Classic Squiffer,122.5,127.1,132.9,140,152.7,163.1,171.3,,1,1,Charger
+Classic Squiffer (Uncharged),35,36.3,37.9,40,43.6,46.6,48.9,,3,3,Charger
+Bamboozler,70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Charger
+Bamboozler (Uncharger),70,72.6,75.9,80,87.2,93.2,97.9,,2,2,Charger
+Splat Bomb,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
+Suction Bomb,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
+Seeker,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
+Burst Bomb (Direct),52.5,54.4,56.9,60,65.4,69.9,73.4,,2,2,Sub
+Burst Bimb (Partial),30.6,31.7,33.2,35,38.1,40.7,42.8,,4,3,Sub
+Burst Bomb (Splash),17.5,18.1,18.9,20,21.8,23.3,24.4,,6,5,Sub
+Ink Mine,157.5,163.4,170.9,180,196.3,209.8,220.3,,1,1,Sub
+Sprinkler,26.2,27.2,28.4,30,32.7,33.3,33.3,,4,4,Sub
+Splash Wall,,,,50 Per tick?,,,,,,,Sub
+Killer Wail,,,,10 Per tick,,,,,,,Special
+Kraken,,,,160,,,,,1,1,Special
+Inkstrike,,,,Lots?,,,,,,,Special
+Inkzooka,,,,150,,,,,1,1,Special
