@@ -1,0 +1,19 @@
+{
+  "name": "splatoon_analysis",
+  "version": "0.0.1",
+  "description": "Tool for analysing Splatoon loadouts",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimnarey/splatoon_analysis.git"
+  },
+  "author": "Jim Narey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimnarey/splatoon_analysis/issues"
+  },
+  "homepage": "https://github.com/jimnarey/splatoon_analysis#readme"
+}
