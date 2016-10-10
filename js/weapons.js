@@ -2,7 +2,7 @@
  * Created by jimnarey on 09/10/16.
  */
 
-const weapons = [
+const weaponTypes = [
     { type : 'Shooter',
         weapons : [
             {
@@ -1072,3 +1072,14 @@ const weapons = [
             }
         ]}
 ];
+
+var weaponList = [];
+
+for (var weaponType of weaponTypes) {
+
+    for (var weapon of weaponType.weapons) {
+        weapon.type = weaponType.type;
+        weaponList.push(weapon);
+    }
+
+}
