@@ -1,4 +1,6 @@
-const abilities = [{
+var utils = require("./utils");
+
+let abilityList = [{
     id: 1,
     name: 'Comeback',
     info: 'Comeback',
@@ -168,6 +170,19 @@ const abilities = [{
     affects: 'Respawn Rate'
 }];
 
+// Give ability entries conistent fields
+for (let item of abilityList) {
+
+    if (!item.hasOwnProperty('slot')) {
+        item.slot = 'any';
+    }
+
+    if (!item.hasOwnProperty('effects')) {
+        item.effects = 'n/a';
+    }
+
+}
+
 class Ability {
 
     constructor(id, name, info, stackable, affects, effects, slot) {
@@ -182,36 +197,25 @@ class Ability {
 
 }
 
-function createAbilities() {
+class Abilities {
 
-    let abilityCollection = {};
+    constructor(abilityList) {
 
-    for (let item of abilities) {
+        for (let item of abilityList) {
 
-        let slot = null;
-        let effects = null;
-        let fieldName = item.name.replace(" ", "_").toLowerCase();
-
-        if (item.hasOwnProperty('slot')) {
-            slot = item.slot;
+            this[utils.safeString(item.name)] = new Ability(
+                item.id,
+                item.name,
+                item.info,
+                item.stackable,
+                item.affects,
+                item.effects,
+                item.slot);
         }
-
-        if (item.hasOwnProperty('effects')) {
-            slot = item.slot;
-        }
-
-        abilityCollection[fieldName] = new Ability(
-            item.id,
-            item.name,
-            item.info,
-            item.stackable,
-            item.affects,
-            effects,
-            slot);
     }
-
-    return abilityCollection;
 
 }
 
-exports.createAbilities = createAbilities;
+var abilities = new Abilities(abilityList);
+
+exports.abilities = abilities;
