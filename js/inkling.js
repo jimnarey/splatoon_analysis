@@ -14,7 +14,7 @@ class Inkling {
         this.main_abilities = [];
         this.sub_abilities = [];
         this.weapon = weaponList.splattershot;
-        this.stats = stats.createStats(this);
+        this.stats = new stats.StatSet(this);
 
 
     }
@@ -31,10 +31,10 @@ class Inkling {
         this.weapon = weapon;
     }
 
-    _hasAbility(abilityString) {
+    _hasAbility(abilityName) {
         let result = false;
         for (let item of this.main_abilities) {
-            if (item.name === abilityString) {
+            if (item.name === abilityName) {
                 result = true;
             }
         }
