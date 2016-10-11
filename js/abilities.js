@@ -1,6 +1,3 @@
-/**
- * Created by jimnarey on 09/10/16.
- */
 
 const abilities = [{
     id : 1,
@@ -171,3 +168,44 @@ const abilities = [{
     stackable: true,
     affects: 'Respawn Rate'
 }];
+
+class Ability {
+
+    constructor(id, name, info, stackable, affects, effects, slot) {
+        this.id = id;
+        this.name = name;
+        this.info = info;
+        this.stackable = stackable;
+        this.affects = affects;
+        this.effects = effects;
+        this.slot = slot;
+    }
+
+}
+
+function createAbilities() {
+
+    let abilityCollection = {};
+
+    for (let item of abilities) {
+
+        let slot = null;
+        let effects = null;
+        let fieldName = item.name.replace(" ", "_").toLowerCase();
+
+        if (item.hasOwnProperty('slot')) {
+            slot = item.slot;
+        }
+
+        if (item.hasOwnProperty('effects')) {
+            slot = item.slot;
+        }
+
+        abilityCollection[fieldName] = new Ability(item.id, item.name, item.info, item.stackable, item.affects, effects, slot);
+    }
+
+    return abilityCollection;
+
+}
+
+exports.createAbilities = createAbilities;

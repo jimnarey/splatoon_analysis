@@ -1,6 +1,3 @@
-/**
- * Created by jimnarey on 09/10/16.
- */
 
 const weaponTypes = [
     { type : 'Shooter',
@@ -1073,13 +1070,46 @@ const weaponTypes = [
         ]}
 ];
 
-var weaponList = [];
+class Weapon {
 
-for (var weaponType of weaponTypes) {
-
-    for (var weapon of weaponType.weapons) {
-        weapon.type = weaponType.type;
-        weaponList.push(weapon);
+    constructor(id, name, type, depletion, speedPenalty, special, sub, damageValues) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.depletion = depletion;
+        this.speedPenalty = speedPenalty;
+        this.special = special;
+        this.sub = sub;
+        this.damageValues = damageValues;
     }
 
 }
+
+function createWeapons() {
+
+    let weaponCollection = {};
+
+    for (let weaponType of weaponTypes) {
+
+        for (let weapon of weaponType.weapons) {
+            let fieldName = weapon.name.replace(" ", "_").toLowerCase();
+            weaponCollection[fieldName] = new Weapon(
+                weapon.id,
+                weapon.name,
+                weapon.type,
+                weapon.depletion,
+                weapon.speedPenalty,
+                weapon.special,
+                weapon.sub,
+                weapon.damageValues
+            )
+        }
+
+    }
+
+    return weaponCollection;
+
+}
+
+
+exports.weaponList = createWeapons;
