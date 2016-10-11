@@ -1112,4 +1112,4 @@ function createWeapons() {
 }
 
 
-exports.weaponList = createWeapons;
+exports.createWeapons = createWeapons;

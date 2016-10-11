@@ -1,10 +1,11 @@
 
-var abilities = require("./abilities");
+// var abilities = require("./abilities");
 var weapons = require("./weapons.js");
-var specials = require("./specials");
-var subweapons = require("./subweapons");
+// var specials = require("./specials");
+// var subweapons = require("./subweapons");
 var stats = require("./stats.js");
 
+var weaponList = weapons.createWeapons();
 
 class Inkling {
 
@@ -12,7 +13,7 @@ class Inkling {
 
         this.main_abilities = [];
         this.sub_abilities = [];
-        this.weapon = null;
+        this.weapon = weaponList.splattershot;
         this.stats = stats.createStats(this);
 
 
