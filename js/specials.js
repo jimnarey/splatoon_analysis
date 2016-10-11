@@ -38,3 +38,5 @@ const specials = [{
     durationCoeff: 50,
     points: 180
 }];
+
+exports.specials = specials;

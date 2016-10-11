@@ -1,6 +1,6 @@
 var utils = require("./utils");
 
-let abilityList = [{
+var abilityList = [{
     id: 1,
     name: 'Comeback',
     info: 'Comeback',
@@ -170,7 +170,7 @@ let abilityList = [{
     affects: 'Respawn Rate'
 }];
 
-// Give ability entries conistent fields
+// Give ability entries consistent fields
 for (let item of abilityList) {
 
     if (!item.hasOwnProperty('slot')) {

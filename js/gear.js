@@ -2,7 +2,7 @@
  * Created by jimnarey on 09/10/16.
  */
 
-const gear = [{"Show":false,"type":"Headgear","name":"Cycling Cap","ability":"Bomb Range Up","Quick Respawn":"1/33","Quick Super Jump":"1/3.3"},
+var gear = [{"Show":false,"type":"Headgear","name":"Cycling Cap","ability":"Bomb Range Up","Quick Respawn":"1/33","Quick Super Jump":"1/3.3"},
     {"Show":false,"type":"Headgear","name":"Urchins Cap","ability":"Bomb Range Up","Quick Respawn":"1/3.3","Special Saver":"1/33"},
     {"Show":false,"type":"Headgear","name":"Octoling Goggles","ability":"Bomb Range Up"},
     {"Show":false,"type":"Headgear","name":"Sun Visor","ability":"Bomb Range Up","Ink Recovery Up":"1/3.3","Quick Super Jump":"1/33"},
@@ -262,3 +262,9 @@ const gear = [{"Show":false,"type":"Headgear","name":"Cycling Cap","ability":"Bo
     {"Show":false,"type":"Shoes","name":"Shark Moccasins","ability":"Bomb Range Up","Ink Saver (Main)":"1/3.3","Run Speed Up":"1/33"},
     {"Show":false,"type":"Shoes","name":"Snowy Down Boots","ability":"Quick Super Jump","Ink Recovery Up":"1/3.3","Quick Super Jump":"1/33"},
 ];
+
+for (let item of gear) {
+    delete item.Show;
+}
+
+exports.gear = gear;

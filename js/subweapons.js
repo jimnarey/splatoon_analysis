@@ -3,58 +3,60 @@
  */
 
 const subweapons = [{
-    name : 'Splat Bomb',
+    name: 'Splat Bomb',
     ink: 70,
-    damageValues : {
-        "Splash" : 30,
-        "Direct Hit" : 180
+    damageValues: {
+        "Splash": 30,
+        "Direct Hit": 180
     }
-},  {
-    name : 'Burst Bomb',
+}, {
+    name: 'Burst Bomb',
     ink: 40,
-    damageValues : {
-        "Min. Splash" : 25,
-        "Max. Splash" : 35,
-        "Direct Hit" : 60
+    damageValues: {
+        "Min. Splash": 25,
+        "Max. Splash": 35,
+        "Direct Hit": 60
     }
-},  {
-    name : 'Suction Bomb',
+}, {
+    name: 'Suction Bomb',
     ink: 70,
-    damageValues : {
-        "Splash" : 30,
-        "Direct Hit" : 180
+    damageValues: {
+        "Splash": 30,
+        "Direct Hit": 180
     }
-},  {
-    name : 'Ink Mine',
+}, {
+    name: 'Ink Mine',
     ink: 50,
-    damageValues : {
-        "Splash" : 30,
-        "Direct Hit" : 180
+    damageValues: {
+        "Splash": 30,
+        "Direct Hit": 180
     }
-},  {
-    name : 'Sprinkler',
+}, {
+    name: 'Sprinkler',
     ink: 80,
-    damageValues : {
-        "Damage Per Hit" : 30
+    damageValues: {
+        "Damage Per Hit": 30
     }
-},  {
-    name : 'Seeker',
+}, {
+    name: 'Seeker',
     ink: 80,
-    damageValues : {
-        "Min. Splash" : 20,
-        "Max. Splash" : 80,
-        "Direct Hit" : 180
+    damageValues: {
+        "Min. Splash": 20,
+        "Max. Splash": 80,
+        "Direct Hit": 180
     }
-},  {
-    name : 'Disruptor',
+}, {
+    name: 'Disruptor',
     ink: 50
-},  {
-    name : 'Splash Wall',
+}, {
+    name: 'Splash Wall',
     ink: 60
-},  {
-    name : 'Squid Beakon',
+}, {
+    name: 'Squid Beakon',
     ink: 90
-},  {
-    name : 'Point Sensor',
+}, {
+    name: 'Point Sensor',
     ink: 40
 }];
+
+exports.subweapons = subweapons;

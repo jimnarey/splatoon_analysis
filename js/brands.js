@@ -72,3 +72,5 @@ const brands = [{
     'rare' : 'Quick_Respawn'
 
 }];
+
+exports.brands = brands;
