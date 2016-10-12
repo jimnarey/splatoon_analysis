@@ -1,7 +1,21 @@
 let utils = require("./utils");
 let data  = require("./data");
 
+let specials = require("./specials.js");
+let subweapons = require("./subweapons.js");
+
 class Weapon {
+
+    static getEquippedItem(name, selectables) {
+        for (let item in selectables) {
+            if (selectables.hasOwnProperty(item)) {
+                console.log(selectables[item].name);
+                if (selectables[item].name === name) {
+                    return selectables[item];
+                }
+            }
+        }
+    }
 
     constructor(id, name, type, depletion, speedPenalty, special, sub, damageValues) {
         this.id = id;
@@ -9,18 +23,17 @@ class Weapon {
         this.type = type;
         this.depletion = depletion;
         this.speedPenalty = speedPenalty;
-        this.special = special;
-        this.sub = sub;
+        this.special = Weapon.getEquippedItem(special, specials.selectableSpecials);
+        this.sub = Weapon.getEquippedItem(sub, subweapons.selectableSubs);
         this.damageValues = damageValues;
     }
 
 }
 
-class Weapons {
+class WeaponSet {
 
     constructor(weaponList) {
         for (let weapon of weaponList) {
-            // let fieldName = weapon.name.split(" ").join("_").toLowerCase();
             this[utils.safeString(weapon.name)] = new Weapon(
                 weapon.id,
                 weapon.name,
@@ -36,6 +49,6 @@ class Weapons {
 
 }
 
-var weapons = new Weapons(data.weapons.weapons);
+var selectableWeapons = new WeaponSet(data.weapons);
 
-exports.weapons = weapons;
+exports.selectableWeapons = selectableWeapons;

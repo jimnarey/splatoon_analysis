@@ -1,62 +1,29 @@
-/**
- * Created by jimnarey on 09/10/16.
- */
+let utils = require("./utils");
+let data  = require("./data");
 
-const subweapons = [{
-    name: 'Splat Bomb',
-    ink: 70,
-    damageValues: {
-        "Splash": 30,
-        "Direct Hit": 180
-    }
-}, {
-    name: 'Burst Bomb',
-    ink: 40,
-    damageValues: {
-        "Min. Splash": 25,
-        "Max. Splash": 35,
-        "Direct Hit": 60
-    }
-}, {
-    name: 'Suction Bomb',
-    ink: 70,
-    damageValues: {
-        "Splash": 30,
-        "Direct Hit": 180
-    }
-}, {
-    name: 'Ink Mine',
-    ink: 50,
-    damageValues: {
-        "Splash": 30,
-        "Direct Hit": 180
-    }
-}, {
-    name: 'Sprinkler',
-    ink: 80,
-    damageValues: {
-        "Damage Per Hit": 30
-    }
-}, {
-    name: 'Seeker',
-    ink: 80,
-    damageValues: {
-        "Min. Splash": 20,
-        "Max. Splash": 80,
-        "Direct Hit": 180
-    }
-}, {
-    name: 'Disruptor',
-    ink: 50
-}, {
-    name: 'Splash Wall',
-    ink: 60
-}, {
-    name: 'Squid Beakon',
-    ink: 90
-}, {
-    name: 'Point Sensor',
-    ink: 40
-}];
+class Subweapon {
 
-exports.subweapons = subweapons;
+    constructor(name, ink, damageValues) {
+        this.name = name;
+        this.ink = ink;
+        this.damageValues = damageValues;
+    }
+
+}
+
+class SubweaponSet {
+
+    constructor(subweaponList) {
+        for (let subweapon of subweaponList) {
+            this[utils.safeString(subweapon.name)] = new Subweapon(
+                subweapon.name,
+                subweapon.ink,
+                subweapon.damageValues
+            );
+        }
+    }
+}
+
+var selectableSubs = new SubweaponSet(data.subweapons);
+
+exports.selectableSubs = selectableSubs;

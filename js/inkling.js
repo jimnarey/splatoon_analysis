@@ -1,11 +1,5 @@
-
-// var abilityList = require("./abilityList");
-var weaponModule = require("./weapons.js");
-// var specials = require("./specials");
-// var subweapons = require("./subweapons");
+var weapons = require("./weapons.js");
 var stats = require("./stats.js");
-
-var weapons = weaponModule.weapons;
 
 class Inkling {
 
@@ -13,18 +7,23 @@ class Inkling {
 
         this.main_abilities = [];
         this.sub_abilities = [];
-        this.weapon = weapons.splattershot;
+        this.weapon = weapons.selectableWeapons.splattershot;
         this.stats = new stats.StatSet(this);
-
 
     }
 
     addMainAbility(ability) {
         this.main_abilities.push(ability);
+        while (this.main_abilities.length > 3) {
+            this.main_abilities.shift();
+        }
     }
 
     addSubAbility(ability) {
         this.sub_abilities.push(ability);
+        while (this.sub_abilities.length > 12) {
+            this.sub_abilities.shift();
+        }
     }
 
     changeWeapon(weapon) {
@@ -58,4 +57,4 @@ class Inkling {
 
 }
 
-exports.inkling = Inkling;
+exports.Inkling = Inkling;

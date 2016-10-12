@@ -15,7 +15,7 @@ class Ability {
 
 }
 
-class Abilities {
+class AbilitySet {
 
     constructor(abilityList) {
 
@@ -34,6 +34,6 @@ class Abilities {
 
 }
 
-var abilities = new Abilities(data.abilities.abilities);
+var selectableAbilities = new AbilitySet(data.abilities);
 
-exports.abilities = abilities;
+exports.selectableAbilities = selectableAbilities;
