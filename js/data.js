@@ -1,6 +1,3 @@
-/**
- * Created by jimnarey on 11/10/16.
- */
 let fs = require('fs');
 
 let path = '../json/';

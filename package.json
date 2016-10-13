@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jimnarey/splatoon_analysis/issues"
   },
-  "homepage": "https://github.com/jimnarey/splatoon_analysis#readme"
+  "homepage": "https://github.com/jimnarey/splatoon_analysis#readme",
+  "dependencies": {
+    "csv-parse": "latest",
+    "babyparse": "latest"
+  }
 }
