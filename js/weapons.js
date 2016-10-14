@@ -17,16 +17,26 @@ class Weapon {
         }
     }
 
-    constructor(id, name, type, depletion, speedPenalty, special, sub, damageValues) {
+    constructor(weaponObj) {
 
-        this.id = id;
-        this.name = name;
-        this.type = type;
-        this.depletion = depletion;
-        this.speedPenalty = speedPenalty;
-        this.special = Weapon.getEquippedItem(special, specials.selectableSpecials);
-        this.sub = Weapon.getEquippedItem(sub, subweapons.selectableSubs);
-        this.damageValues = damageValues;
+        for (let prop in weaponObj) {
+            if (weaponObj.hasOwnProperty(prop)) {
+                if (prop != 'special' && prop != 'sub') {
+                    this[utils.camelise(utils.rmChars(prop))] = weaponObj[prop];
+                }
+            }
+
+        }
+        this.special = Weapon.getEquippedItem(weaponObj.special, specials.selectableSpecials);
+        this.sub = Weapon.getEquippedItem(weaponObj.sub, subweapons.selectableSubs);
+
+        // this.id = id;
+        // this.name = name;
+        // this.type = type;
+        // this.depletion = depletion;
+        // this.speedPenalty = speedPenalty;
+        //
+        // this.damageValues = damageValues;
     }
 
 }
@@ -34,17 +44,8 @@ class Weapon {
 class WeaponSet {
 
     constructor(weaponList) {
-        for (let weapon of weaponList) {
-            this[utils.camelise(utils.rmChars(weapon.name))] = new Weapon(
-                weapon.id,
-                weapon.name,
-                weapon.type,
-                weapon.depletion,
-                weapon.speedPenalty,
-                weapon.special,
-                weapon.sub,
-                weapon.damageValues
-            );
+        for (let weaponObj of weaponList) {
+            this[utils.camelise(utils.rmChars(weaponObj.name))] = new Weapon(weaponObj);
         }
     }
 
