@@ -18,6 +18,7 @@ class Weapon {
     }
 
     constructor(id, name, type, depletion, speedPenalty, special, sub, damageValues) {
+
         this.id = id;
         this.name = name;
         this.type = type;
@@ -34,7 +35,7 @@ class WeaponSet {
 
     constructor(weaponList) {
         for (let weapon of weaponList) {
-            this[utils.safeString(weapon.name)] = new Weapon(
+            this[utils.camelise(utils.rmChars(weapon.name))] = new Weapon(
                 weapon.id,
                 weapon.name,
                 weapon.type,

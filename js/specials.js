@@ -16,7 +16,7 @@ class SpecialSet {
 
     constructor(specialList) {
         for (let special of specialList) {
-            this[utils.safeString(special.name)] = new Special(
+            this[utils.camelise(utils.rmChars(special.name))] = new Special(
                 special.name,
                 special.duration,
                 special.durationCoeff,

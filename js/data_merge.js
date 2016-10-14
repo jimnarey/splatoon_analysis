@@ -64,4 +64,4 @@ for (let weapon of weapons.weapons) {
 }
 
 let jsonString = JSON.stringify(weapons.weapons);
-fs.writeFileSync('../json/weapons3.json', jsonString);
+fs.writeFileSync('../json/weapons-xxx.json', jsonString);

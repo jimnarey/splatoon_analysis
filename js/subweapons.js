@@ -15,7 +15,7 @@ class SubweaponSet {
 
     constructor(subweaponList) {
         for (let subweapon of subweaponList) {
-            this[utils.safeString(subweapon.name)] = new Subweapon(
+            this[utils.camelise(utils.rmChars(subweapon.name))] = new Subweapon(
                 subweapon.name,
                 subweapon.ink,
                 subweapon.damageValues

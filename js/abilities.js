@@ -21,7 +21,7 @@ class AbilitySet {
 
         for (let item of abilityList) {
 
-            this[utils.safeString(item.name)] = new Ability(
+            this[utils.camelise(utils.rmChars(item.name))] = new Ability(
                 item.id,
                 item.name,
                 item.info,
