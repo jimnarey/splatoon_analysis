@@ -1,6 +1,7 @@
-let utils = require("./utils");
+// let utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
+var set = require("./set");
 
 class Special extends itemBase.ItemBase {
     
@@ -10,14 +11,23 @@ class Special extends itemBase.ItemBase {
     
 }
 
-class SpecialSet {
+// class SpecialSet {
+//
+//     constructor(specialList) {
+//         for (let specialObj of specialList) {
+//             this[utils.camelise(utils.rmChars(specialObj.name))] = new Special(specialObj);
+//         }
+//     }
+// }
+
+class SpecialSet extends set.Set {
 
     constructor(specialList) {
-        for (let specialObj of specialList) {
-            this[utils.camelise(utils.rmChars(specialObj.name))] = new Special(specialObj);
-        }
+
+        super(specialList, Special);
     }
 }
+
 
 var selectableSpecials = new SpecialSet(data.specials);
 

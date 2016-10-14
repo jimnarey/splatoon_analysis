@@ -1,7 +1,8 @@
-var utils = require("./utils");
-let data  = require("./data");
-let itemBase = require("./itembase");
+// var utils = require("./utils");
+var data  = require("./data");
+var itemBase = require("./itembase");
 var abilities = require("./abilities");
+var set = require("./set");
 
 class Brand extends itemBase.ItemBase {
 
@@ -13,14 +14,11 @@ class Brand extends itemBase.ItemBase {
     }
 }
 
-class BrandSet {
+class BrandSet extends set.Set {
 
     constructor(brandList) {
 
-        for (let brandObj of brandList) {
-
-            this[utils.camelise(utils.rmChars(brandObj.name))] = new Brand(brandObj);
-        }
+        super(brandList, Brand);
     }
 }
 

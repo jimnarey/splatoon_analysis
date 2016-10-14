@@ -1,6 +1,7 @@
-let utils = require("./utils");
+// let utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
+var set = require("./set");
 
 class Subweapon extends itemBase.ItemBase {
 
@@ -10,12 +11,20 @@ class Subweapon extends itemBase.ItemBase {
 
 }
 
-class SubweaponSet {
+// class SubweaponSet {
+//
+//     constructor(subWeaponList) {
+//         for (let subWeaponObj of subWeaponList) {
+//             this[utils.camelise(utils.rmChars(subWeaponObj.name))] = new Subweapon(subWeaponObj);
+//         }
+//     }
+// }
 
-    constructor(subWeaponList) {
-        for (let subWeaponObj of subWeaponList) {
-            this[utils.camelise(utils.rmChars(subWeaponObj.name))] = new Subweapon(subWeaponObj);
-        }
+class SubweaponSet extends set.Set {
+
+    constructor(subweaponList) {
+
+        super(subweaponList, Subweapon);
     }
 }
 

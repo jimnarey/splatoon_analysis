@@ -1,6 +1,7 @@
-var utils = require("./utils");
+// var utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
+var set = require("./set");
 
 class Ability extends itemBase.ItemBase {
 
@@ -9,14 +10,22 @@ class Ability extends itemBase.ItemBase {
     }
 }
 
-class AbilitySet {
+// class AbilitySet {
+//
+//     constructor(abilityList) {
+//
+//         for (let abilityObj of abilityList) {
+//
+//             this[utils.camelise(utils.rmChars(abilityObj.name))] = new Ability(abilityObj);
+//         }
+//     }
+// }
+
+class AbilitySet extends set.Set {
 
     constructor(abilityList) {
 
-        for (let abilityObj of abilityList) {
-
-            this[utils.camelise(utils.rmChars(abilityObj.name))] = new Ability(abilityObj);
-        }
+        super(abilityList, Ability);
     }
 }
 

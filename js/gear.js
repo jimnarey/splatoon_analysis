@@ -1,7 +1,8 @@
-var utils = require("./utils");
+// var utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
 var abilities = require("./abilities");
+var set = require("./set");
 
 class Gear extends itemBase.ItemBase {
 
@@ -14,14 +15,22 @@ class Gear extends itemBase.ItemBase {
     }
 }
 
-class GearSet {
+// class GearSet {
+//
+//     constructor(gearList) {
+//
+//         for (let gearObj of gearList) {
+//
+//             this[utils.camelise(utils.rmChars(gearObj.name))] = new Gear(gearObj);
+//         }
+//     }
+// }
+
+class GearSet extends set.Set {
 
     constructor(gearList) {
 
-        for (let gearObj of gearList) {
-
-            this[utils.camelise(utils.rmChars(gearObj.name))] = new Gear(gearObj);
-        }
+        super(gearList, Gear);
     }
 }
 
