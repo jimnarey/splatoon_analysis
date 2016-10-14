@@ -1,0 +1,209 @@
+{
+  "main_abilities": [
+    {
+      "id": 6,
+      "name": "Ninja Squid",
+      "info": "Hides ink movement from enemy team",
+      "stackable": false,
+      "slot": "Clothes",
+      "effects": "Hides ink movement from enemy team",
+      "affects": "nothing"
+    },
+    {
+      "id": 15,
+      "name": "Damage Up",
+      "info": "Damage Up",
+      "stackable": true,
+      "affects": "Damage",
+      "slot": "any",
+      "effects": "n/a"
+    },
+    {
+      "id": 24,
+      "name": "Swim Speed Up",
+      "info": "Swim Speed Up",
+      "stackable": true,
+      "affects": "Swim Speed",
+      "slot": "any",
+      "effects": "n/a"
+    }
+  ],
+  "sub_abilities": [],
+  "weapon": {
+    "id": 25,
+    "name": "Splash-o-matic",
+    "type": "Shooter",
+    "depletion": "Light",
+    "speedPenalty": null,
+    "special": {
+      "name": "Bomb Rush",
+      "duration": 6,
+      "durationCoeff": 50,
+      "points": 180
+    },
+    "sub": {
+      "name": "Splat Bomb",
+      "ink": 70,
+      "damageValues": {
+        "splash": 30,
+        "directHit": 180
+      }
+    },
+    "damageValues": {
+      "damagePerHit": 28,
+      "minSecondsToSplat": 0.266,
+      "maxSecondsToSplat": null
+    },
+    "range": 2,
+    "fireRate": 5,
+    "consumption": 0.7,
+    "minMobility": 0.72,
+    "maxMobility": null,
+    "paintingRate": 42.36,
+    "paintingRateRoll": null,
+    "bulletsPerCharge": null,
+    "chargeSpeed": null
+  },
+  "stats": {
+    "damage": {
+      "name": "Damage",
+      "type": "%",
+      "min": 0,
+      "max": 130,
+      "d": 100,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "damage_taken": {
+      "name": "Damage Taken",
+      "type": "%",
+      "min": 70,
+      "max": 100,
+      "d": 100,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "ink_recovery": {
+      "name": "Ink Recovery",
+      "type": "s",
+      "min": 1.65,
+      "max": 3,
+      "d": 66.66666666666667,
+      "m": 0,
+      "s": 0,
+      "value": 3
+    },
+    "ink_usage_main": {
+      "name": "Ink Usage Main",
+      "type": "%",
+      "min": 55,
+      "max": 100,
+      "d": 66.66666666666667,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "ink_usage_sub": {
+      "name": "Ink Usage Sub",
+      "type": "%",
+      "min": 65,
+      "max": 100,
+      "d": 85.71428571428571,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "bomb_throw_range": {
+      "name": "Bomb Throw Range",
+      "type": "%",
+      "min": 0,
+      "max": 150,
+      "d": 60,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "run_speed": {
+      "name": "Run Speed",
+      "type": "%",
+      "min": 0,
+      "max": 150,
+      "d": 60,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "swim_speed": {
+      "name": "Swim Speed",
+      "type": "%",
+      "min": 100,
+      "max": 125,
+      "d": 120,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "special_charge": {
+      "name": "Special Charge",
+      "type": "%",
+      "min": 0,
+      "max": 130,
+      "d": 100,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "special_time": {
+      "name": "Special Time",
+      "type": "%",
+      "min": 0,
+      "max": 140,
+      "d": 75,
+      "m": 0,
+      "s": 0,
+      "value": 100
+    },
+    "special_save": {
+      "name": "Special Save",
+      "type": "%",
+      "min": 60,
+      "max": 100,
+      "d": 60,
+      "m": 0,
+      "s": 0,
+      "value": 60
+    },
+    "respawn_rate": {
+      "name": "Respawn Rate",
+      "type": "s",
+      "min": 2,
+      "max": 8.5,
+      "d": 45,
+      "m": 0,
+      "s": 0,
+      "value": 8.5
+    },
+    "jump_speed": {
+      "name": "Jump Speed",
+      "type": "s",
+      "min": 2.41,
+      "max": 4.83,
+      "d": 60,
+      "m": 0,
+      "s": 0,
+      "value": 4
+    },
+    "echo_haunt_time": {
+      "name": "Echolocator/Haunt Duration",
+      "type": "s",
+      "min": 4.5,
+      "max": 9,
+      "d": 1,
+      "m": 0,
+      "s": 0,
+      "value": 9
+    }
+  }
+}

@@ -9,6 +9,9 @@ let weapons = JSON.parse(fs.readFileSync('../json/weapons.json', 'utf8'));
 
 // var wps = weapons.selectableWeapons;
 
+// This looks wrong, but worked anyway due to recursion
+// Should for..in have worked with a list? Check
+// See gear clean for correct implementation
 function cleanData(listOfObjs) {
     for (let prop in listOfObjs) {
         if (listOfObjs.hasOwnProperty(prop)) {

@@ -2,88 +2,88 @@
   "brands": [
     {
       "name": "amiibo",
-      "common": "",
-      "rare": ""
+      "common": null,
+      "rare": null
     },
     {
       "name": "Cuttlegear",
-      "common": "",
-      "rare": ""
+      "common": null,
+      "rare": null
     },
     {
       "name": "Famitsu",
-      "common": "",
-      "rare": ""
+      "common": null,
+      "rare": null
     },
     {
       "name": "Firefin",
-      "common": "Sub_Ink_Saver",
-      "rare": "Ink_Recovery_Up"
+      "common": "Sub Ink Saver",
+      "rare": "Ink Recovery Up"
     },
     {
       "name": "Forge",
-      "common": "Special_Duration_Up",
-      "rare": "Sub_Ink_Saver"
+      "common": "Special Duration Up",
+      "rare": "Sub Ink Saver"
     },
     {
       "name": "Inkline",
-      "common": "Defense_Up",
-      "rare": "Damage_Up"
+      "common": "Defense Up",
+      "rare": "Damage Up"
     },
     {
       "name": "KOG",
-      "common": "",
-      "rare": ""
+      "common": null,
+      "rare": null
     },
     {
       "name": "Krak-On",
-      "common": "Swim_Speed_Up",
-      "rare": "Defense_Up"
+      "common": "Swim Speed Up",
+      "rare": "Defense Up"
     },
     {
       "name": "Rockenberg",
-      "common": "Run_Speed_Up",
-      "rare": "Swim_Speed_Up"
+      "common": "Run Speed Up",
+      "rare": "Swim Speed Up"
     },
     {
       "name": "Skalop",
-      "common": "Quick_Respawn",
-      "rare": "Special_Saver"
+      "common": "Quick Respawn",
+      "rare": "Special Saver"
     },
     {
       "name": "Splash Mob",
-      "common": "Main_Ink_Saver",
-      "rare": "Run_Speed_Up"
+      "common": "Main Ink Saver",
+      "rare": "Run Speed Up"
     },
     {
       "name": "SquidForce",
-      "common": "Damage_Up",
-      "rare": "Main_Ink_Saver"
+      "common": "Damage Up",
+      "rare": "Main Ink Saver"
     },
     {
       "name": "Takoroka",
-      "common": "Special_Charge_Up",
-      "rare": "Special_Duration_Up"
+      "common": "Special Charge Up",
+      "rare": "Special Duration Up"
     },
     {
       "name": "Tentatek",
-      "common": "Ink_Recovery_Up",
-      "rare": "Quick_Super_Jump"
+      "common": "Ink Recovery Up",
+      "rare": "Quick Super Jump"
     },
     {
       "name": "The SQUID GIRL",
-      "common": "",
-      "rare": ""
+      "common": null,
+      "rare": null
     },
     {
       "name": "Zekko",
-      "common": "Special_Saver",
-      "rare": "Special_Charge_Up"
+      "common": "Special Saver",
+      "rare": "Special Charge Up"
     },
     {
       "name": "Zink",
-      "common": "Quick_Super_Jump",
-      "rare": "Quick_Respawn"
+      "common": "Quick Super Jump",
+      "rare": "Quick Respawn"
     }
   ]
 }

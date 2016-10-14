@@ -4,15 +4,15 @@
       "type": "Headgear",
       "name": "Cycling Cap",
       "ability": "Bomb Range Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Urchins Cap",
       "ability": "Bomb Range Up",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
@@ -23,29 +23,29 @@
       "type": "Headgear",
       "name": "Sun Visor",
       "ability": "Bomb Range Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Pilot Goggles",
       "ability": "Bomb Range Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Tennis Headband",
       "ability": "Comeback",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Five-Panel Cap",
       "ability": "Comeback",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -56,15 +56,15 @@
       "type": "Headgear",
       "name": "Paintball Mask",
       "ability": "Comeback",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Squash Headband",
       "ability": "Damage Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -75,8 +75,8 @@
       "type": "Headgear",
       "name": "Snorkel Mask",
       "ability": "Damage Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -87,15 +87,15 @@
       "type": "Headgear",
       "name": "Takoroka Mesh",
       "ability": "Defense Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Cycle King Cap",
       "ability": "Defense Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Headgear",
@@ -106,113 +106,113 @@
       "type": "Headgear",
       "name": "Splash Goggles",
       "ability": "Defense Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Blowfish Bell Hat",
       "ability": "Ink Recovery Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "White Headband",
       "ability": "Ink Recovery Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Bike Helmet",
       "ability": "Ink Recovery Up",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Short Beanie",
       "ability": "Ink Saver (Main)",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Bamboo Hat",
       "ability": "Ink Saver (Main)",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Studio Headphones",
       "ability": "Ink Saver (Main)",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Jungle Hat",
       "ability": "Ink Saver (Main)",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Jogging Headband",
       "ability": "Ink Saver (Sub)",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Streetstyle Cap",
       "ability": "Ink Saver (Sub)",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Designer Headphones",
       "ability": "Ink Saver (Sub)",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Tinted Shades",
       "ability": "Last-Ditch Effort",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Safari Hat",
       "ability": "Last-Ditch Effort",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "18K Aviators",
       "ability": "Last-Ditch Effort",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Visor Skate Helmet",
       "ability": "Last-Ditch Effort",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "B-ball Headband",
       "ability": "Opening Gambit",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -223,57 +223,57 @@
       "type": "Headgear",
       "name": "Striped Beanie",
       "ability": "Opening Gambit",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Squid-Stitch Cap",
       "ability": "Opening Gambit",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Backwards Cap",
       "ability": "Quick Respawn",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Retro Specs",
       "ability": "Quick Respawn",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Straw Boater",
       "ability": "Quick Super Jump",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Zekko Mesh",
       "ability": "Quick Super Jump",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Bobble Hat",
       "ability": "Quick Super Jump",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Golf Visor",
       "ability": "Run Speed Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -284,78 +284,78 @@
       "type": "Headgear",
       "name": "Tentacles Helmet",
       "ability": "Run Speed Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "FishFry Visor",
       "ability": "Special Charge Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Fake Contacts",
       "ability": "Special Charge Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Squidvader Cap",
       "ability": "Special Charge Up",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Camping Hat",
       "ability": "Special Duration Up",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "White Arrowbands",
       "ability": "Special Duration Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Jet Cap",
       "ability": "Special Saver",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Two-Stripe Mesh",
       "ability": "Special Saver",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Skate Helmet",
       "ability": "Special Saver",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Lightweight Cap",
       "ability": "Swim Speed Up",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Camo Mesh Cap",
       "ability": "Swim Speed Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -366,22 +366,22 @@
       "type": "Headgear",
       "name": "Stealth Goggles",
       "ability": "Swim Speed Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Sporty Bobble Hat",
       "ability": "Tenacity",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Black Arrowbands",
       "ability": "Tenacity",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Headgear",
@@ -392,197 +392,197 @@
       "type": "Headgear",
       "name": "Gas Mask",
       "ability": "Tenacity",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Classic Straw Boater",
       "ability": "Special Duration Up",
-      "low": "Special Saver",
-      "high": "Quick Respawn"
+      "Special Saver": "1/33",
+      "Quick Respawn": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Full Moon Glasses",
       "ability": "Quick Super Jump",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Noise Cancelers",
       "ability": "Quick Respawn",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Octoglasses",
       "ability": "Last-Ditch Effort",
-      "high": "Ink Saver (Sub)",
-      "low": "Ink Recovery Up"
+      "Ink Saver (Sub)": "1/3.3",
+      "Ink Recovery Up": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Paisley Bandana",
       "ability": "Ink Saver (Sub)",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Skull Bandana",
       "ability": "Special Saver",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Soccer Headband",
       "ability": "Tenacity",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Headgear",
       "name": "Special Forces Beret",
       "ability": "Opening Gambit",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Squid Nordic",
       "ability": "Comeback",
-      "low": "Special Saver",
-      "high": "Quick Respawn"
+      "Special Saver": "1/33",
+      "Quick Respawn": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "Treasure Hunter",
       "ability": "Ink Recovery Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Headgear",
       "name": "CoroCoro Cap",
       "ability": "Damage Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "CoroCoro Hoodie",
       "ability": "Cold-Blooded",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Linen Shirt",
       "ability": "Bomb Range Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Squidmark Sweat",
       "ability": "Bomb Range Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Firefin Navy Sweat",
       "ability": "Bomb Range Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Green-Check Shirt",
       "ability": "Bomb Range Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Black Inky Rider",
       "ability": "Bomb Range Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Sage Polo",
       "ability": "Cold-Blooded",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Sky Blue Squideye",
       "ability": "Cold-Blooded",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Anchor Sweat",
       "ability": "Cold-Blooded",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Cycling Shirt",
       "ability": "Cold-Blooded",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Dark Urban Vest",
       "ability": "Cold-Blooded",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Navy College Sweat",
       "ability": "Damage Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Part-Time Pirate",
       "ability": "Damage Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Rockenberg Black",
       "ability": "Damage Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Zink Layered LS",
       "ability": "Damage Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Navy Striped LS",
       "ability": "Damage Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
@@ -593,78 +593,78 @@
       "type": "Clothes",
       "name": "Varsity Jacket",
       "ability": "Damage Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Black 8-Bit FishFry",
       "ability": "Defense Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Carnivore Tee",
       "ability": "Defense Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Mint T-shirt",
       "ability": "Defense Up",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Zekko Baseball LS",
       "ability": "Defense Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Baby-Jelly Shirt",
       "ability": "Defense Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Cycle King Jersey",
       "ability": "Defense Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Retro Sweat",
       "ability": "Defense Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Ivory Peaks Tee",
       "ability": "Haunt",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Squidmark LS",
       "ability": "Haunt",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Yellow Urban Vest",
       "ability": "Haunt",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
@@ -675,36 +675,36 @@
       "type": "Clothes",
       "name": "Vintage Check Shirt",
       "ability": "Haunt",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Aloha Shirt",
       "ability": "Ink Recovery Up",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Grape Tee",
       "ability": "Ink Recovery Up",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Logo Aloha Shirt",
       "ability": "Ink Recovery Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Rockenberg White",
       "ability": "Ink Recovery Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
@@ -715,71 +715,71 @@
       "type": "Clothes",
       "name": "White Shirt",
       "ability": "Ink Recovery Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Black Layered LS",
       "ability": "Ink Saver (Main)",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Rainy-Day Tee",
       "ability": "Ink Saver (Main)",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Red Vector Tee",
       "ability": "Ink Saver (Main)",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Red-Check Shirt",
       "ability": "Ink Saver (Main)",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "B-ball Jersey (Away)",
       "ability": "Ink Saver (Sub)",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Blue Peaks Tee",
       "ability": "Ink Saver (Sub)",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Round-Collar Shirt",
       "ability": "Ink Saver (Sub)",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "White Tee",
       "ability": "Ink Saver (Sub)",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Choco Layered LS",
       "ability": "Ink Saver (Sub)",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
@@ -790,50 +790,50 @@
       "type": "Clothes",
       "name": "Green Striped LS",
       "ability": "Ninja Squid",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Shrimp-Pink Polo",
       "ability": "Ninja Squid",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "School Jersey",
       "ability": "Ninja Squid",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Zekko Hoodie",
       "ability": "Ninja Squid",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "White Anchor Tee",
       "ability": "Ninja Squid",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Basic Tee",
       "ability": "Quick Respawn",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Tricolor Rugby",
       "ability": "Quick Respawn",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
@@ -844,162 +844,162 @@
       "type": "Clothes",
       "name": "Traditional Apron",
       "ability": "Quick Respawn",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "White Striped LS",
       "ability": "Quick Respawn",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Camo Zip Hoodie",
       "ability": "Quick Respawn",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Retro Gamer Jersey",
       "ability": "Quick Respawn",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Gray Vector Tee",
       "ability": "Quick Super Jump",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "White Baseball LS",
       "ability": "Quick Super Jump",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Yellow Layered LS",
       "ability": "Quick Super Jump",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Black LS",
       "ability": "Quick Super Jump",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Gray Mixed Shirt",
       "ability": "Quick Super Jump",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Striped Shirt",
       "ability": "Quick Super Jump",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Varsity Baseball LS",
       "ability": "Recon",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "White 8-Bit FishFry",
       "ability": "Recon",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Black Anchor Tee",
       "ability": "Recon",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Green Cardigan",
       "ability": "Recon",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Olive Ski Jacket",
       "ability": "Recon",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Black Squideye",
       "ability": "Run Speed Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Sailor-Stripe Tee",
       "ability": "Run Speed Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Urchins Jersey",
       "ability": "Run Speed Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Striped Rugby",
       "ability": "Run Speed Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Layered Anchor LS",
       "ability": "Run Speed Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Camo Layered LS",
       "ability": "Special Charge Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Orange Cardigan",
       "ability": "Special Charge Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Sunny-Day Tee",
       "ability": "Special Charge Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Clothes",
@@ -1015,57 +1015,57 @@
       "type": "Clothes",
       "name": "Baseball Jersey",
       "ability": "Special Charge Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Black Tee",
       "ability": "Special Duration Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Pirate Stripe Tee",
       "ability": "Special Duration Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Squid-Pattern Waistcoat",
       "ability": "Special Duration Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Zink LS",
       "ability": "Special Duration Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Berry Ski Jacket",
       "ability": "Special Duration Up",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Green Zip Hoodie",
       "ability": "Special Duration Up",
-      "low": "Ink Recovery Up",
-      "high": "Ink Saver (Sub)"
+      "Ink Recovery Up": "1/33",
+      "Ink Saver (Sub)": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "White Inky Rider",
       "ability": "Special Duration Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
@@ -1076,64 +1076,64 @@
       "type": "Clothes",
       "name": "White Layered LS",
       "ability": "Special Saver",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "B-ball Jersey (Home)",
       "ability": "Special Saver",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Green Tee",
       "ability": "Special Saver",
-      "low": "Ink Saver (Sub)",
-      "high": "Special Duration Up"
+      "Ink Saver (Sub)": "1/33",
+      "Special Duration Up": "1/3.3"
     },
     {
       "type": "Clothes",
       "name": "Layered Vector LS",
       "ability": "Special Saver",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Shirt & Tie",
       "ability": "Special Saver",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Splatfest Tee",
       "ability": "Special Saver",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Black Baseball LS",
       "ability": "Swim Speed Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Gray College Sweat",
       "ability": "Swim Speed Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Squid-Stitch Tee",
       "ability": "Swim Speed Up",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Clothes",
@@ -1149,302 +1149,302 @@
       "type": "Clothes",
       "name": "Mountain Vest",
       "ability": "Swim Speed Up",
-      "high": "Defense Up",
-      "low": "Damage Up"
+      "Defense Up": "1/3.3",
+      "Damage Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Black Polo",
       "ability": "Recon",
-      "high": "Special Saver",
-      "low": "Special Charge Up"
+      "Special Saver": "1/3.3",
+      "Special Charge Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Blue Sailor Suit",
       "ability": "Bomb Range Up",
-      "high": "Special Duration Up",
-      "low": "Ink Saver (Sub)"
+      "Special Duration Up": "1/3.3",
+      "Ink Saver (Sub)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "FC Albacore",
       "ability": "Damage Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Forest Vest",
       "ability": "Ink Recovery Up",
-      "high": "Defense Up",
-      "low": "Damage Up"
+      "Defense Up": "1/3.3",
+      "Damage Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Forge Inkling Parka",
       "ability": "Run Speed Up",
-      "high": "Special Duration Up",
-      "low": "Ink Saver (Sub)"
+      "Special Duration Up": "1/3.3",
+      "Ink Saver (Sub)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Forge Octarian Jacket",
       "ability": "Haunt",
-      "high": "Special Duration Up",
-      "low": "Ink Saver (Sub)"
+      "Special Duration Up": "1/3.3",
+      "Ink Saver (Sub)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Fugu Tee",
       "ability": "Swim Speed Up",
-      "high": "Ink Saver (Sub)",
-      "low": "Ink Recovery Up"
+      "Ink Saver (Sub)": "1/3.3",
+      "Ink Recovery Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Herbivore Tee",
       "ability": "Ninja Squid",
-      "high": "Ink Saver (Sub)",
-      "low": "Ink Recovery Up"
+      "Ink Saver (Sub)": "1/3.3",
+      "Ink Recovery Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Krak-On 528",
       "ability": "Run Speed Up",
-      "high": "Swim Speed Up",
-      "low": "Defense Up"
+      "Swim Speed Up": "1/3.3",
+      "Defense Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Lumberjack Shirt",
       "ability": "Ink Saver (Main)",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Pearl Tee",
       "ability": "Ink Saver (Sub)",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Purple Camo LS",
       "ability": "Bomb Range Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Reel Sweat",
       "ability": "Special Duration Up",
-      "high": "Special Saver",
-      "low": "Special Charge Up"
+      "Special Saver": "1/3.3",
+      "Special Charge Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Reggae Tee",
       "ability": "Special Saver",
-      "high": "Quick Respawn",
-      "low": "Special Saver"
+      "Quick Respawn": "1/3.3",
+      "Special Saver": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Rodeo Shirt",
       "ability": "Quick Super Jump",
-      "high": "Swim Speed Up",
-      "low": "Defense Up"
+      "Swim Speed Up": "1/3.3",
+      "Defense Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Slipstream United",
       "ability": "Defense Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Squid Satin Jacket",
       "ability": "Quick Respawn",
-      "high": "Special Saver",
-      "low": "Special Charge Up"
+      "Special Saver": "1/3.3",
+      "Special Charge Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Squidstar Waistcoat",
       "ability": "Cold-Blooded",
-      "high": "Swim Speed Up",
-      "low": "Defense Up"
+      "Swim Speed Up": "1/3.3",
+      "Defense Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Striped Peaks LS",
       "ability": "Quick Super Jump",
-      "high": "Defense Up",
-      "low": "Damage Up"
+      "Defense Up": "1/3.3",
+      "Damage Up": "1/33"
     },
     {
       "type": "Clothes",
       "name": "White LS",
       "ability": "Ink Recovery Up",
-      "high": "Damage Up",
-      "low": "Ink Saver (Main)"
+      "Damage Up": "1/3.3",
+      "Ink Saver (Main)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "White Sailor Suit",
       "ability": "Ink Saver (Main)",
-      "high": "Special Duration Up",
-      "low": "Ink Saver (Sub)"
+      "Special Duration Up": "1/3.3",
+      "Ink Saver (Sub)": "1/33"
     },
     {
       "type": "Clothes",
       "name": "Zapfish Satin Jacket",
       "ability": "Special Charge Up",
-      "high": "Special Saver",
-      "low": "Special Charge Up"
+      "Special Saver": "1/3.3",
+      "Special Charge Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Blue Slip-Ons",
       "ability": "Bomb Range Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Pink Trainers",
       "ability": "Bomb Range Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Tan Work Boots",
       "ability": "Bomb Range Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Banana Basics",
       "ability": "Bomb Sniffer",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Yellow Seahorses",
       "ability": "Bomb Sniffer",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Pro Trail Boots",
       "ability": "Bomb Sniffer",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Soccer Cleats",
       "ability": "Bomb Sniffer",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Cyan Trainers",
       "ability": "Damage Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Plum Casuals",
       "ability": "Damage Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Blue Lo-Tops",
       "ability": "Defense Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Squid-Stitch Slip-Ons",
       "ability": "Defense Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Hunter Hi-Tops",
       "ability": "Ink Recovery Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "White Seahorses",
       "ability": "Ink Recovery Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Trail Boots",
       "ability": "Ink Recovery Up",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Neon Sea Slugs",
       "ability": "Ink Resistance Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Strapping Reds",
       "ability": "Ink Resistance Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Red Hi-Tops",
       "ability": "Ink Resistance Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Blue Moto Boots",
       "ability": "Ink Resistance Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Orange Arrows",
       "ability": "Ink Saver (Main)",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Red Hi-Horses",
       "ability": "Ink Saver (Main)",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1460,8 +1460,8 @@
       "type": "Shoes",
       "name": "Blueberry Casuals",
       "ability": "Ink Saver (Sub)",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1472,50 +1472,50 @@
       "type": "Shoes",
       "name": "LE Lo-Tops",
       "ability": "Ink Saver (Sub)",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Strapping Whites",
       "ability": "Ink Saver (Sub)",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Black Trainers",
       "ability": "Quick Respawn",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Squink Wingtips",
       "ability": "Quick Respawn",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Choco Clogs",
       "ability": "Quick Respawn",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Moto Boots",
       "ability": "Quick Respawn",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Red Slip-Ons",
       "ability": "Quick Super Jump",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1526,36 +1526,36 @@
       "type": "Shoes",
       "name": "Red Work Boots",
       "ability": "Quick Super Jump",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Acerola Rain Boots",
       "ability": "Run Speed Up",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Oyster Clogs",
       "ability": "Run Speed Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Purple Sea Slugs",
       "ability": "Run Speed Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Gold Hi-Horses",
       "ability": "Run Speed Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1566,43 +1566,43 @@
       "type": "Shoes",
       "name": "Clownfish Basics",
       "ability": "Special Charge Up",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Zombie Hi-Horses",
       "ability": "Special Charge Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Punk Whites",
       "ability": "Special Charge Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Turquoise Kicks",
       "ability": "Special Charge Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Purple Hi-Horses",
       "ability": "Special Duration Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Custom Trail Boots",
       "ability": "Special Duration Up",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1613,15 +1613,15 @@
       "type": "Shoes",
       "name": "White Arrows",
       "ability": "Special Duration Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Cream Basics",
       "ability": "Special Saver",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1632,57 +1632,57 @@
       "type": "Shoes",
       "name": "Red Sea Slugs",
       "ability": "Special Saver",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Cream Hi-Tops",
       "ability": "Stealth Jump",
-      "low": "Defense Up",
-      "high": "Swim Speed Up"
+      "Defense Up": "1/33",
+      "Swim Speed Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Cherry Kicks",
       "ability": "Stealth Jump",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Green Rain Boots",
       "ability": "Stealth Jump",
-      "low": "Damage Up",
-      "high": "Defense Up"
+      "Damage Up": "1/33",
+      "Defense Up": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "Crazy Arrows",
       "ability": "Stealth Jump",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Orange Lo-Tops",
       "ability": "Swim Speed Up",
-      "low": "Special Charge Up",
-      "high": "Special Saver"
+      "Special Charge Up": "1/33",
+      "Special Saver": "1/3.3"
     },
     {
       "type": "Shoes",
       "name": "White Kicks",
       "ability": "Swim Speed Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Black Seahorses",
       "ability": "Swim Speed Up",
-      "low": "Quick Respawn",
-      "high": "Quick Super Jump"
+      "Quick Respawn": "1/33",
+      "Quick Super Jump": "1/3.3"
     },
     {
       "type": "Shoes",
@@ -1693,71 +1693,71 @@
       "type": "Shoes",
       "name": "Blue Sea Slugs",
       "ability": "Special Charge Up",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Bubble Rain Boots",
       "ability": "Damage Up",
-      "high": "Defense Up",
-      "low": "Damage Up"
+      "Defense Up": "1/3.3",
+      "Damage Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Icy Down Boots",
       "ability": "Stealth Jump",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     },
     {
       "type": "Shoes",
       "name": "LE Soccer Cleats",
       "ability": "Ink Resistance Up",
-      "high": "Special Charge Up",
-      "low": "Special Duration Up"
+      "Special Charge Up": "1/3.3",
+      "Special Duration Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Mawcasins",
       "ability": "Ink Recovery Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Punk Cherries",
       "ability": "Bomb Sniffer",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Punk Yellows",
       "ability": "Special Saver",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Roasted Brogues",
       "ability": "Defense Up",
-      "high": "Run Speed Up",
-      "low": "Swim Speed Up"
+      "Run Speed Up": "1/3.3",
+      "Swim Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Shark Moccasins",
       "ability": "Bomb Range Up",
-      "high": "Ink Saver (Main)",
-      "low": "Run Speed Up"
+      "Ink Saver (Main)": "1/3.3",
+      "Run Speed Up": "1/33"
     },
     {
       "type": "Shoes",
       "name": "Snowy Down Boots",
       "ability": "Quick Super Jump",
-      "high": "Ink Recovery Up",
-      "low": "Quick Super Jump"
+      "Ink Recovery Up": "1/3.3",
+      "Quick Super Jump": "1/33"
     }
   ]
 }
