@@ -1,10 +1,11 @@
 let utils = require("./utils");
 let data  = require("./data");
+let itemBase = require("./itembase");
 
 let specials = require("./specials.js");
 let subweapons = require("./subweapons.js");
 
-class Weapon {
+class Weapon extends itemBase.ItemBase {
 
     static getEquippedItem(name, selectables) {
         for (let item in selectables) {
@@ -19,24 +20,10 @@ class Weapon {
 
     constructor(weaponObj) {
 
-        for (let prop in weaponObj) {
-            if (weaponObj.hasOwnProperty(prop)) {
-                if (prop != 'special' && prop != 'sub') {
-                    this[utils.camelise(utils.rmChars(prop))] = weaponObj[prop];
-                }
-            }
+        super(weaponObj);
 
-        }
-        this.special = Weapon.getEquippedItem(weaponObj.special, specials.selectableSpecials);
-        this.sub = Weapon.getEquippedItem(weaponObj.sub, subweapons.selectableSubs);
-
-        // this.id = id;
-        // this.name = name;
-        // this.type = type;
-        // this.depletion = depletion;
-        // this.speedPenalty = speedPenalty;
-        //
-        // this.damageValues = damageValues;
+        this.special = Weapon.getEquippedItem(this.special, specials.selectableSpecials);
+        this.sub = Weapon.getEquippedItem(this.sub, subweapons.selectableSubs);
     }
 
 }

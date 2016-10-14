@@ -1,13 +1,11 @@
 let utils = require("./utils");
 let data  = require("./data");
+let itemBase = require("./itembase");
 
-class Special {
+class Special extends itemBase.ItemBase {
     
-    constructor(name, duration, durationCoeff, points) {
-        this.name = name;
-        this.duration = duration;
-        this.durationCoeff = durationCoeff;
-        this.points = points;
+    constructor(specialObj) {
+        super(specialObj);
     }
     
 }
@@ -15,13 +13,8 @@ class Special {
 class SpecialSet {
 
     constructor(specialList) {
-        for (let special of specialList) {
-            this[utils.camelise(utils.rmChars(special.name))] = new Special(
-                special.name,
-                special.duration,
-                special.durationCoeff,
-                special.points
-            );
+        for (let specialObj of specialList) {
+            this[utils.camelise(utils.rmChars(specialObj.name))] = new Special(specialObj);
         }
     }
 }

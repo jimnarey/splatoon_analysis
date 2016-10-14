@@ -1,37 +1,23 @@
 var utils = require("./utils");
 let data  = require("./data");
+let itemBase = require("./itembase");
 
-class Ability {
+class Ability extends itemBase.ItemBase {
 
-    constructor(id, name, info, stackable, affects, effects, slot) {
-        this.id = id;
-        this.name = name;
-        this.info = info;
-        this.stackable = stackable;
-        this.affects = affects;
-        this.effects = effects;
-        this.slot = slot;
+    constructor(abilityObj) {
+        super(abilityObj);
     }
-
 }
 
 class AbilitySet {
 
     constructor(abilityList) {
 
-        for (let item of abilityList) {
+        for (let abilityObj of abilityList) {
 
-            this[utils.camelise(utils.rmChars(item.name))] = new Ability(
-                item.id,
-                item.name,
-                item.info,
-                item.stackable,
-                item.affects,
-                item.effects,
-                item.slot);
+            this[utils.camelise(utils.rmChars(abilityObj.name))] = new Ability(abilityObj);
         }
     }
-
 }
 
 var selectableAbilities = new AbilitySet(data.abilities);

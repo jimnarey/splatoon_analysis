@@ -26,7 +26,6 @@ class Stat {
 
 }
 
-//Move all data, as far as possible, to a single JSON file
 
 class StatSet {
 

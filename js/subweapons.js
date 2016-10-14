@@ -1,25 +1,20 @@
 let utils = require("./utils");
 let data  = require("./data");
+let itemBase = require("./itembase");
 
-class Subweapon {
+class Subweapon extends itemBase.ItemBase {
 
-    constructor(name, ink, damageValues) {
-        this.name = name;
-        this.ink = ink;
-        this.damageValues = damageValues;
+    constructor(subWeaponObj) {
+        super(subWeaponObj);
     }
 
 }
 
 class SubweaponSet {
 
-    constructor(subweaponList) {
-        for (let subweapon of subweaponList) {
-            this[utils.camelise(utils.rmChars(subweapon.name))] = new Subweapon(
-                subweapon.name,
-                subweapon.ink,
-                subweapon.damageValues
-            );
+    constructor(subWeaponList) {
+        for (let subWeaponObj of subWeaponList) {
+            this[utils.camelise(utils.rmChars(subWeaponObj.name))] = new Subweapon(subWeaponObj);
         }
     }
 }
