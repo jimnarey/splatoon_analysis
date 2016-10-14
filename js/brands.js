@@ -1,11 +1,15 @@
 var utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
+var abilities = require("./abilities");
 
 class Brand extends itemBase.ItemBase {
 
     constructor(brandObj) {
         super(brandObj);
+        
+        this.common = itemBase.ItemBase.getEquippedItem(this.common, abilities.selectableAbilities);
+        this.rare = itemBase.ItemBase.getEquippedItem(this.rare, abilities.selectableAbilities);
     }
 }
 
@@ -20,6 +24,6 @@ class BrandSet {
     }
 }
 
-var selectableAbilities = new BrandSet(data.abilities);
+var brands = new BrandSet(data.brands);
 
-exports.selectableAbilities = selectableAbilities;
+exports.brands = brands;

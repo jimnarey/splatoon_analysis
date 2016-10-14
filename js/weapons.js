@@ -6,24 +6,13 @@ let specials = require("./specials.js");
 let subweapons = require("./subweapons.js");
 
 class Weapon extends itemBase.ItemBase {
-
-    static getEquippedItem(name, selectables) {
-        for (let item in selectables) {
-            if (selectables.hasOwnProperty(item)) {
-                console.log(selectables[item].name);
-                if (selectables[item].name === name) {
-                    return selectables[item];
-                }
-            }
-        }
-    }
-
+    
     constructor(weaponObj) {
 
         super(weaponObj);
 
-        this.special = Weapon.getEquippedItem(this.special, specials.selectableSpecials);
-        this.sub = Weapon.getEquippedItem(this.sub, subweapons.selectableSubs);
+        this.special = itemBase.ItemBase.getEquippedItem(this.special, specials.selectableSpecials);
+        this.sub = itemBase.ItemBase.getEquippedItem(this.sub, subweapons.selectableSubs);
     }
 
 }

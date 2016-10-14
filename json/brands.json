@@ -17,13 +17,13 @@
     },
     {
       "name": "Firefin",
-      "common": "Sub Ink Saver",
+      "common": "Ink Saver (Sub)",
       "rare": "Ink Recovery Up"
     },
     {
       "name": "Forge",
       "common": "Special Duration Up",
-      "rare": "Sub Ink Saver"
+      "rare": "Ink Saver (Sub)"
     },
     {
       "name": "Inkline",
@@ -52,13 +52,13 @@
     },
     {
       "name": "Splash Mob",
-      "common": "Main Ink Saver",
+      "common": "Ink Saver (Main)",
       "rare": "Run Speed Up"
     },
     {
       "name": "SquidForce",
       "common": "Damage Up",
-      "rare": "Main Ink Saver"
+      "rare": "Ink Saver (Main)"
     },
     {
       "name": "Takoroka",
