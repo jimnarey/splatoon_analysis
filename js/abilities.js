@@ -1,4 +1,3 @@
-// var utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
 var set = require("./set");
@@ -9,17 +8,6 @@ class Ability extends itemBase.ItemBase {
         super(abilityObj);
     }
 }
-
-// class AbilitySet {
-//
-//     constructor(abilityList) {
-//
-//         for (let abilityObj of abilityList) {
-//
-//             this[utils.camelise(utils.rmChars(abilityObj.name))] = new Ability(abilityObj);
-//         }
-//     }
-// }
 
 class AbilitySet extends set.Set {
 

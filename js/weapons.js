@@ -1,4 +1,3 @@
-// let utils = require("./utils");
 let data  = require("./data");
 let itemBase = require("./itembase");
 var set = require("./set");
@@ -17,16 +16,6 @@ class Weapon extends itemBase.ItemBase {
     }
 
 }
-
-// class WeaponSet {
-//
-//     constructor(weaponList) {
-//         for (let weaponObj of weaponList) {
-//             this[utils.camelise(utils.rmChars(weaponObj.name))] = new Weapon(weaponObj);
-//         }
-//     }
-//
-// }
 
 class WeaponSet extends set.Set {
 

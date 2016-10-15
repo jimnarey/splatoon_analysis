@@ -1,4 +1,3 @@
-// var utils = require("./utils");
 var data  = require("./data");
 var itemBase = require("./itembase");
 var abilities = require("./abilities");

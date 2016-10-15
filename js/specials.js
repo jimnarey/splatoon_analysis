@@ -11,15 +11,6 @@ class Special extends itemBase.ItemBase {
     
 }
 
-// class SpecialSet {
-//
-//     constructor(specialList) {
-//         for (let specialObj of specialList) {
-//             this[utils.camelise(utils.rmChars(specialObj.name))] = new Special(specialObj);
-//         }
-//     }
-// }
-
 class SpecialSet extends set.Set {
 
     constructor(specialList) {
@@ -27,7 +18,6 @@ class SpecialSet extends set.Set {
         super(specialList, Special);
     }
 }
-
 
 var selectableSpecials = new SpecialSet(data.specials);
 
