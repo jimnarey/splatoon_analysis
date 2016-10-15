@@ -16,19 +16,41 @@ class SplatoonObject {
         utils.copyProps(itemObj, this);
     }
 
-    all() {
+    getProps(props) {
         let contents = {};
-        for (let prop in this) {
-            if (this.hasOwnProperty(prop)) {
 
-                if (this[prop] instanceof SplatoonObject) {
-                    contents[prop] = this[prop].name;
-                }
-                else {
+        if (props != undefined && props instanceof Array) {
+            for (let prop of props) {
+                try {
                     contents[prop] = this[prop];
+                } catch(err) {
+                    contents[prop] = 'error:' + err;
                 }
             }
+        } else {
+            for (let prop of props) {
+                contents[prop] = this[prop];
+            }
         }
+
+        // for (let prop in this) {
+        //     if (this.hasOwnProperty(prop)) {
+        //
+        //         // This is broken
+        //         if (columns != undefined) {
+        //             if (!utils.contains(columns, prop)) {
+        //                 break;
+        //             }
+        //         }
+        //
+        //         if (this[prop] instanceof SplatoonObject) {
+        //             contents[prop] = this[prop].name;
+        //         }
+        //         else {
+        //             contents[prop] = this[prop];
+        //         }
+        //     }
+        // }
         return contents;
     }
 
