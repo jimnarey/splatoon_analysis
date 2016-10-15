@@ -15,16 +15,14 @@ class Set {
         let i = 0;
         for (let prop in this) {
             if (this[prop] instanceof this.itemClass) {
-
-                for (let subProp in this[prop]) {
+                let all = this[prop].all();
+                for (let subProp in all) {
 
                     if (!contents.hasOwnProperty(subProp)) {
                         contents[subProp] = [];
-                        for (let j = 0; j < i; j++) {
-                            contents[subProp][j] = null;
-                        }
+
                     }
-                    contents[subProp][i] = this[prop][subProp];
+                    contents[subProp][i] = all[subProp];
 
                 }
                 i++;
