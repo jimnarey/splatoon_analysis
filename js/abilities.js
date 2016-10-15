@@ -1,8 +1,8 @@
 let data  = require("./data");
-let itemBase = require("./itembase");
+let splatoonObject = require("./splatoon_object");
 var set = require("./set");
 
-class Ability extends itemBase.ItemBase {
+class Ability extends splatoonObject.SplatoonObject {
 
     constructor(abilityObj) {
         super(abilityObj);

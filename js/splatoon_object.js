@@ -1,6 +1,6 @@
 let utils = require("./utils");
 
-class ItemBase {
+class SplatoonObject {
 
     static getEquippedItem(name, selectables) {
         for (let item in selectables) {
@@ -19,4 +19,4 @@ class ItemBase {
 
 }
 
-exports.ItemBase = ItemBase;
+exports.SplatoonObject = SplatoonObject;
