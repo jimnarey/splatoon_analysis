@@ -17,6 +17,26 @@ class SplatoonObject {
         utils.copyProps(itemObj, this);
     }
 
+    // all() {
+    //     let contentsArray = [];
+    //     for (let prop in this) {
+    //         if (this.hasOwnProperty(prop)) {
+    //             contentsArray.push(this[prop]);
+    //         }
+    //     }
+    //     return contentsArray;
+    // }
+
+    all() {
+        let contents = {};
+        for (let prop in this) {
+            if (this.hasOwnProperty(prop)) {
+                contents[prop] = this[prop];
+            }
+        }
+        return contents;
+    }
+
 }
 
 exports.SplatoonObject = SplatoonObject;
