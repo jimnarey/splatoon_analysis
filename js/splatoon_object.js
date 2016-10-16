@@ -19,7 +19,7 @@ class SplatoonObject {
     getProps(props) {
         let contents = {};
 
-        if (props != undefined && props instanceof Array) {
+        if (props && props instanceof Array) {
             for (let prop of props) {
                 try {
                     contents[prop] = this[prop];
@@ -28,9 +28,11 @@ class SplatoonObject {
                 }
             }
         } else {
-            for (let prop of props) {
-                contents[prop] = this[prop];
-            }
+            // or try...  contents = Object.assign(contents, this); ??
+            // for (let prop in this) {
+            //     contents[prop] = this[prop];
+            // }
+            contents = Object.assign(contents, this);
         }
 
         // for (let prop in this) {

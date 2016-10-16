@@ -11,18 +11,18 @@ function contains(array, value) {
     return false;
 }
 
+// function copyProps(sourceObj, targetObj) {
+//
+// }
+
 function copyProps(sourceObj, targetObj) {
-    for (let prop in sourceObj) {
-        if (sourceObj.hasOwnProperty(prop)) {
-            if (sourceObj[prop] === Object(sourceObj[prop])) {
-                let p = camelise(rmChars(prop));
-                targetObj[p] = {};
-                copyProps(sourceObj[prop], targetObj[p]);
-            } else {
-
-                    targetObj[camelise(rmChars(prop))] = sourceObj[prop];
-
-            }
+    for (let prop of Object.keys(sourceObj)) {
+        if (sourceObj[prop] === Object(sourceObj[prop])) {
+            let p = camelise(prop);
+            targetObj[p] = {};
+            copyProps(sourceObj[prop], targetObj[p]);
+        } else {
+            targetObj[camelise(prop)] = sourceObj[prop];
         }
     }
 }

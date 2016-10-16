@@ -6,3 +6,9 @@ var brands = require("./brands");
 var gear = require("./gear");
 
 ink = new inkling.Inkling();
+
+wps = weapons.selectableWeapons;
+
+mynames = ['nZAP89', 'splashOMatic', 'splatterscope'];
+
+myprops = ['type', 'name'];
